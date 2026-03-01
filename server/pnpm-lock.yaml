@@ -24,6 +24,9 @@ importers:
         specifier: ^3.6.5
         version: 3.15.3
     devDependencies:
+      concurr:
+        specifier: ^1.4.4
+        version: 1.4.4
       concurrently:
         specifier: ^9.2.1
         version: 9.2.1
@@ -82,6 +85,9 @@ packages:
 
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+
+  concurr@1.4.4:
+    resolution: {integrity: sha512-ORevqlL6Vmk9Sy5sK6gzq1a9bgoQ1lWhweVCGi8j35GyCnDzZ542h5UFPb53mZ3WgEpsPN+b4U3+RvV3bzaqxg==}
 
   concurrently@9.2.1:
     resolution: {integrity: sha512-fsfrO0MxV64Znoy8/l1vVIjjHa29SZyyqPgQBwhiDcaW8wJc2W3XWVOGx4M3oJBnv/zdUZIIp1gDeS98GzP8Ng==}
@@ -526,6 +532,8 @@ snapshots:
       color-name: 1.1.4
 
   color-name@1.1.4: {}
+
+  concurr@1.4.4: {}
 
   concurrently@9.2.1:
     dependencies:
