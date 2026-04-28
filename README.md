@@ -1,7 +1,3 @@
-Login Admin
-
-Email: admin@absensi.com  
-Password: admin123
 
 Instalasi
 
